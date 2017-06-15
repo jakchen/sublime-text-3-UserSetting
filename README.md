@@ -1,10 +1,9 @@
 ---
-title: sublime-text-3-UserSetting
+title: sublime text3使用介绍
 tags: sublime text3
 grammar_cjkRuby: true
 ---
-## sublime-text-3-UserSetting
-我的用户设置：
+## 我的用户设置：
 {
 "font_size": 12,
 //字体大小
@@ -28,6 +27,12 @@ grammar_cjkRuby: true
 //保存时去掉每一行文本最后面的空格
 //"theme": "Seti_orig.sublime-theme",
 //使用seti_ui
-"keys": ["ctrl+shift+i"],"command": "htmlprettify",
-//对Html，css，js文件进行格式化
 }
+## 我的快捷键设置：
+[
+  { "keys": ["ctrl+shift+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+  //对齐
+    { "keys": ["f5"], "command": "open_in_browser" },
+    //在浏览器中打开文件
+   {"keys": ["ctrl+shift+i"],"command": "htmlprettify"},
+]
