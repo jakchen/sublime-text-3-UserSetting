@@ -1,4 +1,9 @@
-# sublime-text-3-UserSetting
+---
+title: sublime-text-3-UserSetting
+tags: sublime text3
+grammar_cjkRuby: true
+---
+## sublime-text-3-UserSetting
 我的用户设置：
 {
 "font_size": 12,
@@ -23,4 +28,6 @@
 //保存时去掉每一行文本最后面的空格
 //"theme": "Seti_orig.sublime-theme",
 //使用seti_ui
+"keys": ["ctrl+shift+i"],"command": "htmlprettify",
+//对Html，css，js文件进行格式化
 }
